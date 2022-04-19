@@ -1,0 +1,15 @@
+.el {
+    height: 16px;
+    width: 16px;
+    background-color: green;
+}
+
+.outershell {
+    background-color: #dcdee5;
+}
+
+.navBarButton {
+    vertical-align: text-bottom;
+}
+
+

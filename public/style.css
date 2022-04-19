@@ -1,0 +1,16 @@
+@font-face {
+    font-family: "Dina";
+    src: url("resources/font/DinaRemasterII-01.woff2") format("woff2"),
+    url("resources/font/DinaRemasterII-01.woff") format("woff"),
+    url("./resources/font/DinaRemasterII-01.ttf") format("truetype");
+}
+
+body {
+    font-family: "Dina";
+}
+
+.root {
+    width: 100%;
+    background: #dcdee5;
+    font-family: "Dina";
+}
