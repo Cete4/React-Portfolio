@@ -1,6 +1,14 @@
+@font-face {
+    font-family: "Dina";
+    src: url("../resources/font/dinaremasterii-01_1-webfont.woff2") format("woff2"),
+    url("../resources/font/dinaremasterii-01_1-webfont.woff") format("woff"),
+    url("../resources/font/DinaRemasterII-01.ttf") format("truetype");
+}
+
 .el {
-    height: 16px;
-    width: 16px;
+    padding-top: 10px;
+    height: 35px;
+    width: 35px;
     background-color: green;
 }
 
@@ -12,4 +20,32 @@
     vertical-align: text-bottom;
 }
 
+.header {
+    vertical-align: middle;
+    font-family: "Dina", serif;
+    font-size: 35px;
+    padding-bottom: 0px;
+    margin-bottom: 0px;
+}
 
+.header:hover {
+    color: green;
+}
+
+.horizontalLine {
+    padding-top: 0px;
+    margin-top: 0px;
+    border: 0;
+    height: 0;
+    border-top: 1px solid rgba(0, 0, 0, 0.1);
+    border-bottom: 1px solid rgba(255, 255, 255, 0.8);
+}
+
+.noHover {
+    pointer-events: none;
+}
+
+.definedRowHeight {
+    vertical-align: middle;
+    height: 50px;
+}

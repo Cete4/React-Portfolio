@@ -1,6 +1,6 @@
 import React from "react";
 import './App.css'
-import {Col, Container, Navbar, Row} from "react-bootstrap";
+import {Col, Container, Row} from "react-bootstrap";
 import anime from 'animejs';
 
 function App() {
@@ -9,11 +9,10 @@ function App() {
     React.useEffect(() => {
         animationRef.current = anime({
             targets: ".el",
-            translateX: 250,
-            delay: function (el, i) {
-                return i * 100;
-            },
+            translateX: 1000,
             loop: true,
+            //Duration in ms
+            duration: 10000,
             direction: "alternate",
             easing: "easeInOutSine"
         });
@@ -23,17 +22,28 @@ function App() {
         <div className="App">
             <Row className="outershell">
                 <Container fluid>
-                    <Row>
-                        <Col xs>
-
-                        </Col>
+                    <Row className="definedRowHeight">
+                        <Col/>
                         <Col xs={10}>
-                            <p>Micah BigEagle</p>
-                            <hr></hr>
+                            <p className="header">Micah BigEagle</p>
+                            <hr className="horizontalLine noHover"/>
                         </Col>
-                        <Col>
-
+                        <Col/>
+                    </Row>
+                    <Row className="definedRowHeight">
+                        <Col/>
+                        <Col xs={10}>
+                            <p className="header">Full Stack Developer</p>
+                            <hr className="horizontalLine noHover"/>
                         </Col>
+                        <Col/>
+                    </Row>
+                    <Row className="definedRowHeight">
+                        <Col/>
+                        <Col xs={10}>
+                            <div className="el noHover"/>
+                        </Col>
+                        <Col/>
                     </Row>
                 </Container>
             </Row>
