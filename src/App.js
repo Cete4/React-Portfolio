@@ -5,18 +5,55 @@ import anime from 'animejs';
 
 function App() {
 
+    const widthModifier = 2.5;
     const animationRef = React.useRef(null);
+
+    function debounce(fn, ms) {
+        let timer
+        return _ => {
+            clearTimeout(timer)
+            timer = setTimeout(_ => {
+                timer = null
+                fn.apply(this, arguments)
+            }, ms)
+        };
+    }
+
+    const [dimensions, setDimensions] = React.useState({
+        height: window.innerHeight,
+        width: window.innerWidth
+    })
+
     React.useEffect(() => {
+        const debouncedHandleResize = debounce(function handleResize() {
+            setDimensions({
+                height: window.innerHeight,
+                width: window.innerWidth
+            })
+        }, 1000)
+        window.addEventListener('resize', debouncedHandleResize)
+        return _ => {
+            window.removeEventListener('resize', debouncedHandleResize)
+
+        }
+    })
+
+    React.useEffect(() => {
+        //If the site loads for the first time the animation will be null
+        if (animationRef.current !== null) {
+            animationRef.current.restart()
+        }
         animationRef.current = anime({
-            targets: ".el",
-            translateX: 1000,
+            targets: ["el", ".el1", ".el2"],
+            translateX: dimensions.width / widthModifier,
             loop: true,
             //Duration in ms
-            duration: 10000,
+            duration: 5000,
             direction: "alternate",
             easing: "easeInOutSine"
         });
-    }, []);
+    }, [dimensions]);
+
 
     return (
         <div className="App">
@@ -38,10 +75,15 @@ function App() {
                         </Col>
                         <Col/>
                     </Row>
-                    <Row className="definedRowHeight">
+                    <br/>
+                    <Row>
                         <Col/>
-                        <Col xs={10}>
-                            <div className="el noHover"/>
+                        <Col xs={10} id="animationCol">
+                            <div className="el">
+                                <div className="el1">
+                                    <div className="el2"/>
+                                </div>
+                            </div>
                         </Col>
                         <Col/>
                     </Row>
