@@ -39,7 +39,10 @@ function App() {
     })
 
     React.useEffect(() => {
-        animationRef.current.restart();
+        //If the site loads for the first time the animation will be null
+        if (animationRef.current !== null) {
+            animationRef.current.restart()
+        }
         animationRef.current = anime({
             targets: ["el", ".el1", ".el2"],
             translateX: dimensions.width / widthModifier,
