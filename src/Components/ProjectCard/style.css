@@ -1,0 +1,21 @@
+.ProjectCard {
+    background: transparent;
+    border-color: transparent;
+    box-shadow: rgba(0, 0, 0, 0.16) 0px 10px 36px 0px, rgba(0, 0, 0, 0.06) 0px 0px 0px 1px;
+}
+
+.CardAnchor {
+    font-weight: bold;
+    background-color: transparent;
+    border-color: transparent;
+    color: black;
+    text-decoration: none;
+}
+
+.CardAnchor:hover {
+    color: green;
+}
+
+.disabled {
+    pointer-events: none;
+}
