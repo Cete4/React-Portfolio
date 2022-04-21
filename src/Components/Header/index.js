@@ -1,6 +1,6 @@
 import React from "react";
 import './style.css'
-import {Col, Container, Row} from "react-bootstrap";
+import {Col, Row} from "react-bootstrap";
 import anime from 'animejs';
 
 function Header() {
@@ -44,7 +44,7 @@ function Header() {
             animationRef.current.restart()
         }
         animationRef.current = anime({
-            targets: ["el", ".el1", ".el2"],
+            targets: ["square1", ".square2", ".square3"],
             translateX: dimensions.width / widthModifier,
             loop: true,
             //Duration in ms
@@ -77,9 +77,9 @@ function Header() {
             <Row>
                 <Col/>
                 <Col xs={10} id="animationCol">
-                    <div className="el">
-                        <div className="el1">
-                            <div className="el2"/>
+                    <div className="square1">
+                        <div className="square2">
+                            <div className="square3"/>
                         </div>
                     </div>
                 </Col>
