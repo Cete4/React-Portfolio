@@ -2,10 +2,12 @@ import React from "react";
 import './style.css'
 import {Col, Row} from "react-bootstrap";
 import anime from 'animejs';
+import HeaderAnimation from "../HeaderAnimation";
 
 function Header() {
 
     const widthModifier = 2.5;
+    const checkResizeMS = 500;
     const animationRef = React.useRef(null);
 
     function debounce(fn, ms) {
@@ -22,7 +24,7 @@ function Header() {
     const [dimensions, setDimensions] = React.useState({
         height: window.innerHeight,
         width: window.innerWidth
-    })
+    });
 
     React.useEffect(() => {
         const debouncedHandleResize = debounce(function handleResize() {
@@ -30,13 +32,13 @@ function Header() {
                 height: window.innerHeight,
                 width: window.innerWidth
             })
-        }, 1000)
+        }, checkResizeMS)
         window.addEventListener('resize', debouncedHandleResize)
         return _ => {
             window.removeEventListener('resize', debouncedHandleResize)
 
         }
-    })
+    });
 
     React.useEffect(() => {
         //If the site loads for the first time the animation will be null
@@ -77,11 +79,7 @@ function Header() {
             <Row>
                 <Col/>
                 <Col xs={10} id="animationCol">
-                    <div className="square1">
-                        <div className="square2">
-                            <div className="square3"/>
-                        </div>
-                    </div>
+                    <HeaderAnimation/>
                 </Col>
                 <Col/>
             </Row>

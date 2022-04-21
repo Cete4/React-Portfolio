@@ -5,27 +5,6 @@
     url("../../../resources/font/DinaRemasterII-01.ttf") format("truetype");
 }
 
-.square1 {
-    padding-top: 10px;
-    height: 35px;
-    width: 35px;
-    background-color: green;
-}
-
-.square2 {
-    padding-top: 10px;
-    height: 35px;
-    width: 35px;
-    background-color: green;
-}
-
-.square3 {
-    padding-top: 10px;
-    height: 35px;
-    width: 35px;
-    background-color: green;
-}
-
 .outershell {
     background-color: #dcdee5;
 }
