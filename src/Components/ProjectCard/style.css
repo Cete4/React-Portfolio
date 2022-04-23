@@ -1,7 +1,17 @@
 .ProjectCard {
     background: transparent;
     border-color: transparent;
-    box-shadow: rgba(0, 0, 0, 0.16) 0 10px 36px 0, rgba(0, 0, 0, 0.06) 0 0 0 1px;
+    box-shadow: rgba(25, 150, 67, 0.4) 5px 5px,
+    rgba(25, 150, 67, 0.3) 10px 10px,
+    rgba(25, 150, 67, 0.2) 15px 15px,
+    rgba(25, 150, 67, 0.1) 20px 20px,
+    rgba(25, 150, 67, 0.05) 25px 25px;
+
+    /*    box-shadow: green 0 0 0 3px inset,*/
+    /*    rgb(255, 255, 255) 10px -10px 0 -3px,*/
+    /*    green 10px -10px,*/
+    /*    rgb(255, 255, 255) 20px -20px 0 -3px,*/
+    /*    green 20px -20px*/
 }
 
 .CardAnchor {
@@ -13,8 +23,14 @@
     text-decoration: none;
 }
 
+.cardHeader {
+    margin-top: 5px;
+    font-size: 30px;
+    text-align: center;
+}
+
 .CardAnchor:hover {
-    color: green;
+    color: rgb(25, 150, 67);
 }
 
 .disabled {

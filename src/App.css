@@ -9,25 +9,25 @@
     padding-top: 10px;
     height: 35px;
     width: 35px;
-    background-color: green;
+    background-color: rgb(25, 150, 67);
 }
 
 .el1 {
     padding-top: 10px;
     height: 35px;
     width: 35px;
-    background-color: green;
+    background-color: rgb(25, 150, 67);
 }
 
 .el2 {
     padding-top: 10px;
     height: 35px;
     width: 35px;
-    background-color: green;
+    background-color: rgb(25, 150, 67);
 }
 
 .outershell {
-    background-color: #dcdee5;
+    background-color: rgb(25, 150, 67);
 }
 
 .navBarButton {

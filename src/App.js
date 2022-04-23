@@ -7,12 +7,19 @@ import ProjectCard from "./Components/ProjectCard/index.js";
 function App() {
     const projects = [
         {
-            name: "HeyYouItsMeServer",
+            name: "Hey You Its Me Server",
             gitLink: "https://github.com/Cete4/HeyYouItsMeServer",
             description: `A SpringBoot server that can be connected to a PostgreSQL database. 
             Written in Kotlin and currently running on my RaspberryPi to serve messages to the HeyYouItsMe React Native App.`,
             imageLink: "../../resources/images/heyyouitsme.png"
         },
+        {
+            name: "Hey You Its Me Server",
+            gitLink: "https://github.com/Cete4/HeyYouItsMeServer",
+            description: `A SpringBoot server that can be connected to a PostgreSQL database. 
+            Written in Kotlin and currently running on my RaspberryPi to serve messages to the HeyYouItsMe React Native App.`,
+            imageLink: "../../resources/images/heyyouitsme.png"
+        }
     ]
     return (
         <div className="App">
