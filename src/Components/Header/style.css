@@ -1,8 +1,8 @@
 @font-face {
     font-family: "Dina";
-    src: url("../../../resources/font/dinaremasterii-01_1-webfont.woff2") format("woff2"),
-    url("../../../resources/font/dinaremasterii-01_1-webfont.woff") format("woff"),
-    url("../../../resources/font/DinaRemasterII-01.ttf") format("truetype");
+    src: url("../../resources/font/dinaremasterii-01_1-webfont.woff2") format("woff2"),
+    url("../../resources/font/dinaremasterii-01_1-webfont.woff") format("woff"),
+    url("../../resources/font/DinaRemasterII-01.ttf") format("truetype");
 }
 
 .outershell {
@@ -19,10 +19,6 @@
     font-size: 35px;
     padding-bottom: 0;
     margin-bottom: 0;
-}
-
-.header:hover {
-    color: green;
 }
 
 .horizontalLine {
