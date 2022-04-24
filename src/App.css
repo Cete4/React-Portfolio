@@ -60,3 +60,10 @@
 .outershell {
     background-color: #dcdee5;
 }
+
+.phantom {
+    display: block;
+    padding: 20px;
+    height: 60px;
+    width: 100%;
+}

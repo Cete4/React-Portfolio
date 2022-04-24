@@ -1,20 +1,17 @@
-.Footer {
+.fixed-border {
     background-color: #dcdee5;
+    display: block;
+    padding-top: 10px;
+}
+.Footer {
+    background-color: transparent;
     align-content: center;
+    position: fixed;
     padding: 20px;
-    position: absolute;
     bottom: 0;
     height: 60px;
     width: 100%;
 }
-
-.phantom {
-    display: block;
-    padding: 20px;
-    height: 60px;
-    width: 100%;
-}
-
 
 .buttonIcon {
     height: 30px;
@@ -27,5 +24,6 @@
 }
 
 .a {
+    background-color: transparent;
     margin: 5px;
 }

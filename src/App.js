@@ -57,10 +57,7 @@ function App() {
 
                             ))
                         }
-                        <br/>
-                        <br/>
-                        <br/>
-                        <br/>
+                        <div className="phantom" />
                         <Footer/>
                     </Row>
                 </Container>
