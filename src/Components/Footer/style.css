@@ -1,0 +1,23 @@
+.Footer {
+    background-color: #dcdee5;
+    align-content: center;
+    padding: 20px;
+    position: fixed;
+    bottom: 0;
+    height: 60px;
+    width: 100%;
+}
+
+.buttonIcon {
+    height: 30px;
+    width: 30px;
+}
+
+.centerContent {
+    text-align: center;
+    align-content: center;
+}
+
+.a {
+    margin: 5px;
+}

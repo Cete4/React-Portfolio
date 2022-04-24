@@ -3,6 +3,7 @@ import './App.css'
 import {Container, Row} from "react-bootstrap";
 import Header from "./Components/Header/index.js";
 import ProjectCard from "./Components/ProjectCard/index.js";
+import Footer from "./Components/Footer";
 
 function App() {
     const projects = [
@@ -33,9 +34,9 @@ function App() {
         }
     ]
     return (
-        <div className="App">
+        <div className="App outershell">
             <Row className="outershell">
-                <Container fluid>
+                <Container fluid className="outershell">
                     <Row>
                         <Header/>
                     </Row>
@@ -56,11 +57,11 @@ function App() {
 
                             ))
                         }
+                        <Footer/>
                     </Row>
                 </Container>
             </Row>
         </div>
-
     );
 }
 

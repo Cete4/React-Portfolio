@@ -5,10 +5,6 @@
     url("../../resources/font/DinaRemasterII-01.ttf") format("truetype");
 }
 
-.outershell {
-    background-color: #dcdee5;
-}
-
 .navBarButton {
     vertical-align: text-bottom;
 }

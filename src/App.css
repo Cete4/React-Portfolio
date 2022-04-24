@@ -26,14 +26,6 @@
     background-color: rgb(25, 150, 67);
 }
 
-.outershell {
-    background-color: rgb(25, 150, 67);
-}
-
-.navBarButton {
-    vertical-align: text-bottom;
-}
-
 .header {
     vertical-align: middle;
     font-family: "Dina", serif;
@@ -60,11 +52,11 @@
     background: transparent;
 }
 
-.card {
-    background-color: #dcdee5;
-}
-
 .definedRowHeight {
     vertical-align: middle;
     height: 50px;
+}
+
+.outershell {
+    background-color: #dcdee5;
 }
