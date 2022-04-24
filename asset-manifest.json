@@ -1,16 +1,16 @@
 {
   "files": {
-    "main.css": "/React-Portfolio/static/css/main.b0284627.css",
+    "main.css": "/React-Portfolio/static/css/main.678e6d19.css",
     "main.js": "/React-Portfolio/static/js/main.32cff57c.js",
     "static/media/DinaRemasterII-01.ttf": "/React-Portfolio/static/media/DinaRemasterII-01.1e5ec93b4baa091592a3.ttf",
     "static/media/dinaremasterii-01_1-webfont.woff": "/React-Portfolio/static/media/dinaremasterii-01_1-webfont.ea7f2b0f4222d1315da0.woff",
     "static/media/dinaremasterii-01_1-webfont.woff2": "/React-Portfolio/static/media/dinaremasterii-01_1-webfont.dec303ce8891fc5ee412.woff2",
     "index.html": "/React-Portfolio/index.html",
-    "main.b0284627.css.map": "/React-Portfolio/static/css/main.b0284627.css.map",
+    "main.678e6d19.css.map": "/React-Portfolio/static/css/main.678e6d19.css.map",
     "main.32cff57c.js.map": "/React-Portfolio/static/js/main.32cff57c.js.map"
   },
   "entrypoints": [
-    "static/css/main.b0284627.css",
+    "static/css/main.678e6d19.css",
     "static/js/main.32cff57c.js"
   ]
 }
