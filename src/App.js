@@ -57,6 +57,10 @@ function App() {
 
                             ))
                         }
+                        <br/>
+                        <br/>
+                        <br/>
+                        <br/>
                         <Footer/>
                     </Row>
                 </Container>
