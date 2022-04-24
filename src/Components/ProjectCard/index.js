@@ -9,7 +9,7 @@ function ProjectCard(props) {
 
             <text className="cardHeader">{props.cardTitle}</text>
             <Card.Body>{props.cardBody}</Card.Body>
-            <a className="CardAnchor" href={props.cardLink} target="_blank">Check It Out</a>
+            <a className="CardAnchor" href={props.cardLink} target="_blank">Check It Out →</a>
         </Card>
     );
 }
