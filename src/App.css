@@ -55,8 +55,13 @@
     background-color: transparent;
 }
 
-.cardRow{
+.cardRow {
     justify-content: center;
+    background: transparent;
+}
+
+.card {
+    background-color: #dcdee5;
 }
 
 .definedRowHeight {

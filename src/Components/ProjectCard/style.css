@@ -5,8 +5,9 @@
     url("../../resources/font/DinaRemasterII-01.ttf") format("truetype");
 }
 
+
 .ProjectCard {
-    background: transparent;
+    background-color: #dcdee5;
     border-color: transparent;
     margin: 20px;
     font-family: Dina, serif;
@@ -27,13 +28,15 @@
 .CardAnchor {
     text-align: center;
     font-weight: bold;
-    background-color: transparent;
+    background: #dcdee5;
     border-color: transparent;
     color: black;
     text-decoration: none;
 }
 
 .cardHeader {
+    background: #dcdee5;
+    border: transparent;
     margin-top: 5px;
     font-size: 30px;
     text-align: center;
@@ -41,6 +44,10 @@
 
 .CardAnchor:hover {
     color: rgb(25, 150, 67);
+}
+
+.ProjectCard.card {
+    background-color: #dcdee5;
 }
 
 .disabled {
