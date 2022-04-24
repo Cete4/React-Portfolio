@@ -70,7 +70,7 @@ function Header() {
             <Row className="definedRowHeight">
                 <Col/>
                 <Col xs={10}>
-                    <p className="header">Full Stack Developer</p>
+                    <p className="header">Full Stack Web Developer</p>
                     <hr className="horizontalLine noHover"/>
                 </Col>
                 <Col/>

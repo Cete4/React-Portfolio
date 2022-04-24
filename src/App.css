@@ -51,8 +51,17 @@
     border-bottom: 1px solid rgba(255, 255, 255, 0.8);
 }
 
-.noHover {
-    pointer-events: none;
+.noStyle {
+    background-color: transparent;
+}
+
+.cardRow {
+    justify-content: center;
+    background: transparent;
+}
+
+.card {
+    background-color: #dcdee5;
 }
 
 .definedRowHeight {

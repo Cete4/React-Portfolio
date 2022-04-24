@@ -9,12 +9,12 @@
     padding-top: 10px;
     height: 35px;
     width: 35px;
-    background-color: rgb(25, 150, 67);
+    background-color: rgba(25, 150, 67, .8);
 }
 
 .square3 {
     padding-top: 10px;
     height: 35px;
     width: 35px;
-    background-color: rgb(25, 150, 67);
+    background-color: rgba(25, 150, 67, .6);
 }

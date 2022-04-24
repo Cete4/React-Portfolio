@@ -1,6 +1,16 @@
+@font-face {
+    font-family: "Dina";
+    src: url("../../resources/font/dinaremasterii-01_1-webfont.woff2") format("woff2"),
+    url("../../resources/font/dinaremasterii-01_1-webfont.woff") format("woff"),
+    url("../../resources/font/DinaRemasterII-01.ttf") format("truetype");
+}
+
+
 .ProjectCard {
-    background: transparent;
+    background-color: #dcdee5;
     border-color: transparent;
+    margin: 20px;
+    font-family: Dina, serif;
     box-shadow: rgba(25, 150, 67, 0.4) 5px 5px,
     rgba(25, 150, 67, 0.3) 10px 10px,
     rgba(25, 150, 67, 0.2) 15px 15px,
@@ -12,18 +22,21 @@
     /*    green 10px -10px,*/
     /*    rgb(255, 255, 255) 20px -20px 0 -3px,*/
     /*    green 20px -20px*/
+
 }
 
 .CardAnchor {
     text-align: center;
     font-weight: bold;
-    background-color: transparent;
+    background: #dcdee5;
     border-color: transparent;
     color: black;
     text-decoration: none;
 }
 
 .cardHeader {
+    background: #dcdee5;
+    border: transparent;
     margin-top: 5px;
     font-size: 30px;
     text-align: center;
@@ -31,6 +44,10 @@
 
 .CardAnchor:hover {
     color: rgb(25, 150, 67);
+}
+
+.ProjectCard.card {
+    background-color: #dcdee5;
 }
 
 .disabled {
