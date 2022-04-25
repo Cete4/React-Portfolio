@@ -5,27 +5,6 @@
     url("./resources/font/DinaRemasterII-01.ttf") format("truetype");
 }
 
-.el {
-    padding-top: 10px;
-    height: 35px;
-    width: 35px;
-    background-color: rgb(25, 150, 67);
-}
-
-.el1 {
-    padding-top: 10px;
-    height: 35px;
-    width: 35px;
-    background-color: rgb(25, 150, 67);
-}
-
-.el2 {
-    padding-top: 10px;
-    height: 35px;
-    width: 35px;
-    background-color: rgb(25, 150, 67);
-}
-
 .header {
     vertical-align: middle;
     font-family: "Dina", serif;
