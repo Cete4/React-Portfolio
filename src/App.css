@@ -5,35 +5,6 @@
     url("./resources/font/DinaRemasterII-01.ttf") format("truetype");
 }
 
-.el {
-    padding-top: 10px;
-    height: 35px;
-    width: 35px;
-    background-color: rgb(25, 150, 67);
-}
-
-.el1 {
-    padding-top: 10px;
-    height: 35px;
-    width: 35px;
-    background-color: rgb(25, 150, 67);
-}
-
-.el2 {
-    padding-top: 10px;
-    height: 35px;
-    width: 35px;
-    background-color: rgb(25, 150, 67);
-}
-
-.outershell {
-    background-color: rgb(25, 150, 67);
-}
-
-.navBarButton {
-    vertical-align: text-bottom;
-}
-
 .header {
     vertical-align: middle;
     font-family: "Dina", serif;
@@ -60,11 +31,18 @@
     background: transparent;
 }
 
-.card {
-    background-color: #dcdee5;
-}
-
 .definedRowHeight {
     vertical-align: middle;
     height: 50px;
+}
+
+.outershell {
+    background-color: #dcdee5;
+}
+
+.phantom {
+    display: block;
+    padding: 20px;
+    height: 60px;
+    width: 100%;
 }
