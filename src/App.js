@@ -1,11 +1,22 @@
-import React from "react";
+import React, {useEffect} from "react";
 import './App.css'
 import {Container, Row} from "react-bootstrap";
 import Header from "./Components/Header/index.js";
 import ProjectCard from "./Components/ProjectCard/index.js";
 import Footer from "./Components/Footer";
+import ReactGA from 'react-ga';
+const TRACKING_ID = "G-B6KTLNTBQH"; // OUR_TRACKING_ID
+
 
 function App() {
+
+    // Initialize Google Analytics
+    ReactGA.initialize(TRACKING_ID);
+
+    useEffect(() => {
+        ReactGA.pageview(window.location.pathname + window.location.search);
+    }, []);
+
     const projects = [
         {
             name: "Hey You Its Me Server",
