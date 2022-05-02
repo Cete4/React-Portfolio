@@ -25,3 +25,6 @@ yarn-error.log*
 
 #Intellij
 .idea
+
+#Env variables and keys
+.env
