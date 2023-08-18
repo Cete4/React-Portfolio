@@ -1,5 +1,4 @@
 import React, {useEffect} from "react";
-import './style.css'
 import {Container, Row} from "react-bootstrap";
 import Header from "../Header/index.js";
 import ProjectCard from "../ProjectCard/index.js";

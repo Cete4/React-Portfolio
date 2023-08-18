@@ -1,5 +1,4 @@
 import React from "react";
-import './style.css'
 import {Col, Row} from "react-bootstrap";
 import githubIcon from "../../resources/images/github.png";
 import linkedInIcon from "../../resources/images/linkedin.png";

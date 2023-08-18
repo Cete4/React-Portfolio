@@ -1,5 +1,4 @@
 import React from "react";
-import './style.css'
 import {Col, Row} from "react-bootstrap";
 import anime from 'animejs';
 import HeaderAnimation from "../HeaderAnimation/index.js";
